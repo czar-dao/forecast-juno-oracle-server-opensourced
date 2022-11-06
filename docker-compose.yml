@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  distro:
+    image: <User>/<ServerName>:<new tag>
+    restart: always
+    container_name: Juno_oracle
+    ports:
+      - "443:443"
